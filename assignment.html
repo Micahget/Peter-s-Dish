@@ -259,15 +259,6 @@
                     <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
-                    <!-- this one is for pause and play buttons  -->
-                    <div class="btn-group" id="carouselButton" >
-                        <button class="btn btn-danger btn-sm" id="carousel-pause">
-                            <span class="fa fa-pause"></span>
-                        </button>
-                        <button class="btn btn-danger btn-sm" id="carousel-play">
-                            <span class="fa fa-play"></span>
-                        </button>
-                    </div>
                  
 
                 </div>
@@ -451,26 +442,6 @@
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script> -->
-    <!-- we have used carausel pause and play botton so for that to work(to came to alive we should write a js code here ) -->
-    <script>
-        // these are the functions which is going to be implemented whenever the stated action is performed
-        $(document).ready(function() {
-            // this one is for the pause button 
-            $('#mycarousel').carousel({interval:2000});
-            $('#carousel-pause').click(function(){
-                $('#mycarousel').carousel('pause');
-            });
-
-            // thisone is for the play button 
-
-            $('#mycarousel').carousel({interval:200});
-            $('#carousel-play').click(function(){
-                $('#mycarousel').carousel('cycle');
-            });
-        
-
-        });
-    </script>
 </body>
 
 </html>

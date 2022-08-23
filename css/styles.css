@@ -37,6 +37,7 @@ body{
 .navbar-dark{
     /* developer.android.com */
  background-color: rgb(153, 72, 230);
+  
 
 }
 .tab-content {
@@ -57,3 +58,9 @@ body{
     top: 0;
     bottom: 0;
     min-height: 300px;
+}
+#carouselButton{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
